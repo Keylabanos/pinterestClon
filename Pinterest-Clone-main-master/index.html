@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./SearchBar/searchBar.style.css">
     <link rel="stylesheet" href="./Card/card.style.css">
-    <title>Pinteres Clone</title>
+    <title>Pinterest Clone</title>
+    <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/pinterest-1.svg">
 </head>
 
 <body>
@@ -229,42 +230,53 @@
 
                 <ul class="navbar-nav ms-3">
 
-                    <!-------------- BELL HTML START --------------->
-                    <div class="containerBell">
-                        <div class="btn-group">
-                            <button type="button" class="btn btn-secondary dropdown-toggle circle"
-                                data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
-                                <i class="fas fa-bell"></i>
-                            </button>
-                            <div class="outCbox">
-                                <div class="Mcontent">
-                                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                                        <p class="tittle1">Actualizaciones</p>
-                                        <div class="lista">
-                                            <li>
-                                                <p class="comentario">Pines inspiratos en ti</p>
-                                                <img class="img2"
-                                                    src="https://i.pinimg.com/236x/ff/2d/74/ff2d74713480f334a5e3a283502204d1.jpg"
-                                                    alt="" />
-                                            </li>
-                                        </div>
-                                        <div class="lista">
-                                            <li>
-                                                <p class="comentario">Aqui tienes mas ideas.</p>
-                                                <img class="img2"
-                                                    src="https://i.pinimg.com/236x/1a/2d/7d/1a2d7d1ccb50ee300d59263708f30136.jpg"
-                                                    alt="" />
-                                            </li>
-                                        </div>
-
-
-                                    </ul>
-                                </div>
-                            </div>
+                    <!--New Bell Starts here-->
+                    <li class="nav-item dropdown-messages">
+                        <a class="nav-link ebs dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-bell"></i>
+                        </a>
+                        <div class="dropdown-menu messages allSections" id="msg">
+                            <h5>Actualizaciones</h5>
+                            <div class="sections">
+                               <div class="organizesection"> <img src="https://i.pinimg.com/236x/ff/2d/74/ff2d74713480f334a5e3a283502204d1.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>4</b> pines en <br><b>guardado rapido.</b></p></div>
+                               <div class="mainpicContain">
+                            <img src="https://i.pinimg.com/236x/ff/2d/74/ff2d74713480f334a5e3a283502204d1.jpg" alt="pictures" class="mainpic">
                         </div>
-                    </div>
-                    <!------------------ BELL HTML END ----------------->
+                            </div>
+                            <div class="sections">
+                                <div class="organizesection"> <img src="https://i.pinimg.com/564x/3a/91/7c/3a917c96014457b97523eb8703c97a55.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>2</b> pines en <br><b>ropa.</b></p></div>
+                                <div class="mainpicContain">
+                             <img src="https://i.pinimg.com/564x/3a/91/7c/3a917c96014457b97523eb8703c97a55.jpg" alt="pictures" class="mainpic" style="height: 300px; width: 200px;">
+                         </div>
+                             </div>
+                             <div class="sections">
+                                <div class="organizesection"> <img src="https://i.pinimg.com/236x/08/c0/d5/08c0d55fe06064dc33441e44a82b8c50.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>5</b> pines en <br><b>carros.</b></p></div>
+                                <div class="mainpicContain">
+                             <img src="https://i.pinimg.com/236x/08/c0/d5/08c0d55fe06064dc33441e44a82b8c50.jpg" alt="pictures" class="mainpic" style="height: 300px; width: 200px;">
+                         </div>
+                             </div>
+                             <div class="sections">
+                                <div class="organizesection"> <img src="https://i.pinimg.com/236x/b8/9a/9a/b89a9a7efa219a50071feb84a6821815.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>4</b> pines en <br><b>dibujos sencillos.</b></p></div>
+                                <div class="mainpicContain">
+                             <img src="https://i.pinimg.com/236x/b8/9a/9a/b89a9a7efa219a50071feb84a6821815.jpg" alt="pictures" class="mainpic" style="height: 300px; width: 200px;">
+                         </div>
+                             </div>
+                             <div class="sections">
+                                <div class="organizesection"> <img src="https://i.pinimg.com/236x/e3/d4/21/e3d421c7ea51a052119592a6dc7c69ee.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>3</b> pines en <br><b>arte manga.</b></p></div>
+                                <div class="mainpicContain">
+                             <img src="https://i.pinimg.com/236x/e3/d4/21/e3d421c7ea51a052119592a6dc7c69ee.jpg" alt="pictures" class="mainpic" style="height: 300px; width: 200px;">
+                         </div>
+                             </div>
+                             <div class="sections">
+                                <div class="organizesection"> <img src="https://i.pinimg.com/236x/92/b0/88/92b088e38eeb76dec3fe51b7ccecfc1a.jpg" alt="pictures" class="loadpic"><p class="loadtext">Se han guardado <b>2</b> pines en <br><b>videojuegos.</b></p></div>
+                                <div class="mainpicContain">
+                             <img src="https://i.pinimg.com/236x/92/b0/88/92b088e38eeb76dec3fe51b7ccecfc1a.jpg" alt="pictures" class="mainpic" style="height: 300px; width: 200px;">
+                         </div>
+                             </div>
+                            </div>
 
+                    <!--New Bell ends here-->
 
                      <!------Empieza edicion de bandeja de mensajes----------->
                 <li class="nav-item dropdown-messages">

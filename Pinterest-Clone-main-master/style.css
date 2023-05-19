@@ -131,10 +131,11 @@
 }
 
 .fa-comment-dots {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900;
-  margin-top: 1px;
+  margin-top: 2px;
   color: #5f5f5f;
+  margin-right: 5px;
 }
 
 .fa-times {
@@ -151,10 +152,11 @@
 /*Css Imagen de Perfil */
 
 .img-profile {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  margin-top: 8px;
+  margin-top: 12px;
+  margin-right: 5px;
 }
 
 /*Empieza botón de ayuda estatico*/
@@ -269,97 +271,6 @@
 }
 
 /*Termina botón de ayuda*/
-
-
-
-/**** BELL AREA START ********/
-
-.fa-bell {
-  font-size: 24px;
-  margin-top: 8px;
-  color: rgb(100, 99, 99);
-}
-
-#bell {
-  margin-left: -25px;
-}
-
-.btn-check:checked+.btn,
-.btn.active,
-.btn.show,
-.btn:first-child:active,
-:not(.btn-check)+.btn:active {
-  color: white var(--bs-btn-active-color);
-  background-color: #ffffff;
-  border-color: white var(--bs-btn-active-border-color);
-}
-
-.circle {
-  border-radius: 50%;
-  border: none;
-  background: none;
-
-}
-
-.circle:hover {
-  background-color: rgba(188, 186, 186, 0.516);
-}
-
-.tittle1 {
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-bottom: 30px;
-  font-weight: bold;
-}
-
-.comentario {
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
-.img2 {
-  width: 350px;
-  height: 180px;
-  margin-left: 10px;
-  border-radius: 15px;
-}
-
-.lista {
-  width: 450px;
-  height: 160px;
-  border-radius: 15px;
-  background-color: #ffffff;
-}
-
-.lista:hover {
-  background-color: rgba(163, 163, 166, 0.239);
-}
-
-.lista {
-  cursor: pointer;
-}
-
-.dropdown-menu-lg-start[data-bs-popper] {
-  margin-top: 15px;
-  border: none;
-  left: -250%;
-
-}
-
-@media (min-width: 500px) {
-  .img2 {
-    width: 300px;
-    height: 120px;
-    border-radius: 15px;
-
-  }
-
-  .dropdown-menu-lg-start[data-bs-popper] {
-    left: -230%;
-  }
-}
-
-/**** BELL AREA END ********/
 
 
 /*Empieza boton de bandeja de mensajes*/
@@ -530,4 +441,52 @@
   border-radius: 20px;
   padding: 0.5rem;
   cursor:pointer;
+}
+
+/*New Bell area*/
+.allSections{
+  overflow-y: scroll;
+}
+.allSections h5{
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  font-size: medium;
+}
+.loadpic{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.loadtext{
+  text-align: left;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.mainpic{
+  border-radius: 20px;
+}
+.organizesection{
+  display: flex;
+  justify-content:baseline;
+}
+.mainpicContain{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 20px;
+}
+.sections:hover{
+  background-color: rgba(128, 128, 128, 0.212);
+  color: black;
+  width: auto;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+.fa-bell{
+  color: #5c5a5a;
+  margin-right: 5px;
 }
